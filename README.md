@@ -1,4 +1,30 @@
-## Building DigitalNote
+# Kapela
+Copyright (c) 2017-2018 The Kapela Project
+
+## What is this?
+
+Kapela is a blockchain-powered messaging and payment platform. Messages and payments can be sent as anonymously and securely as you require, and with the magic of decentralization, there is no single physical place where your data can be accessed without the permission of your private key signature.
+
+### But really, What _is_ this?
+
+The Kapela blockchain utilizes the same base algorithm that Monero implements in order to provide the following peer-reviewed features:
+
+**User-Controlled Privacy:** Kapela uses a cryptographically sound system to allow you to send and receive messages and funds without your transactions being easily revealed on the blockchain. This ensures that your conversations, purchases, receipts, and all transfers remain as private as you want. Our protocol gives you control over who can see your messages and transactions without any unneccesary roadblocks.
+
+**Ensured Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
+
+**Proven Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Kapela is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
+
+**Native Monetary Functionality:** With the benefit of being a native blockchain platform, transfers of value will be available as well. With both transaction processing types(money and messages) being governed by the same security protocol, you have the same privacy control over your financial transactions as you would have over your messages.
+
+### Contact Us!
+
+- Web: [kapela.io](https://kapela.io)
+- Forum: [forum.kapela.io](https://forum.kapela.io) (Coming soon)
+- Mail: [info@kapela.io](mailto:info@kapela.io)
+- GitHub: [https://github.com/kapela-project](https://github.com/kapela-project)
+
+## Building Kapela
 
 ### On *nix:
 
@@ -37,7 +63,12 @@ mkdir build
 cd build
 cmake -G "Visual Studio 12 Win64" ..
 ```
+And then do the Build. Good luck!
 
-And then do Build.
+### HTML wallet:
 
-Good luck!
+1. First run kapelad, wait until it syncs...
+2. Than run simplewallet in JSON-RPC enabled mode on 48782 port:   
+`./simplewallet --wallet-file=WALLETFILE --password=PASSWORD --rpc-bind-port=48782`
+3. Wait until it syncs...
+4. Open wallet.html page in browser and you should see a web GUI

@@ -3,7 +3,7 @@ Copyright (c) 2017-2018 The Kapela Project
 
 ## What is this?
 
-Kapela is a blockchain-powered messaging and payment platform. Messages and payments can be sent as anonymously and securely as you require, and with the magic of decentralization, there is no single physical place where your data can be accessed without the permission of your private key signature.
+Kapela is a blockchain-powered messaging and payment platform. Messages and payments can be sent as anonymously and securely as you require, and with a decentralized structure, there is no single physical place where your data can be accessed without the permission of your private key signature.
 
 ### But really, What _is_ this?
 

@@ -7,7 +7,7 @@ Kapela is a blockchain-powered messaging and payment platform. Messages and paym
 
 ### But really, What _is_ this?
 
-The Kapela blockchain utilizes the same base algorithm that Monero implements in order to provide the following peer-reviewed features:
+The Kapela blockchain utilizes the same cryptographic principles that Monero implements in order to provide the following peer-reviewed features:
 
 **User-Controlled Privacy:** Kapela uses a cryptographically sound system to allow you to send and receive messages and funds without your transactions being easily revealed on the blockchain. This ensures that your conversations, purchases, receipts, and all transfers remain as private as you want. Our protocol gives you control over who can see your messages and transactions without any unneccesary roadblocks.
 
